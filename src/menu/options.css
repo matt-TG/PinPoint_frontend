@@ -1,0 +1,107 @@
+.options{
+    
+margin: 1rem;
+  width: calc(45% - 2rem);
+  min-width: 17.5rem;
+}
+
+.flex{
+    
+    display: flex;
+    width: 100%;
+    height: 100%;
+    min-width: 17.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.LinkHolder {
+  position: relative;
+  margin: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow: hidden;
+/*  background-color: cornsilk;*/
+background-color: rgba(0, 0, 0, 0.5);
+cursor: pointer;
+}
+
+.LinkHolder a{
+    
+    text-decoration: none;
+}
+
+.LinkHolder:hover{
+    
+    background-color: aqua;
+}
+
+.Link{
+    
+    color: white;
+}
+
+.LinkHolder:hover .Link{
+    
+    color: black;
+}
+
+.info_container{
+    
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    background: linear-gradient(180deg, #0C003C 0%, #BFFFAF 100%), linear-gradient(165deg, #480045 25%, #E9EAAF 100%), linear-gradient(145deg, #480045 25%, #E9EAAF 100%), linear-gradient(300deg, rgba(233, 223, 255, 0) 0%, #AF89FF 100%), linear-gradient(90deg, #45EBA5 0%, #45EBA5 30%, #21ABA5 30%, #21ABA5 60%, #1D566E 60%, #1D566E 70%, #163A5F 70%, #163A5F 100%);
+background-blend-mode: overlay, overlay, overlay, multiply, normal;
+    color: white;
+    margin-top: 2rem;
+}
+
+/*
+.center_box{
+    
+    width: 100%;
+}
+*/
+
+/*
+.info_box{
+
+    display: block;
+    margin: 0 auto;
+}
+*/
+
+.headline{
+    
+ 
+    color: aquamarine;
+    border-bottom: 1px dotted red;
+
+}
+
+@media (min-width: 441px and max-width: 900px){
+    
+    .center_box{
+        
+        width: 75vw;
+    }
+}
+
+
+@media (max-width: 440px){
+    
+    .center_box{
+        
+        width: 50vw;
+    }
+}
+
+@media (max-width: 900px){
+    
+    .flex{
+        
+        flex-direction: column;
+    }
+}

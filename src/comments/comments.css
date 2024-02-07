@@ -1,0 +1,14 @@
+.comment_button{
+    
+    width: 8rem;
+    height: 3rem;
+    background-color: azure;
+    -webkit-box-shadow: 4px 3px 19px -1px rgba(0,0,0,0.49);
+-moz-box-shadow: 4px 3px 19px -1px rgba(0,0,0,0.49);
+box-shadow: 4px 3px 19px -1px rgba(0,0,0,0.49); 
+}
+
+.comment_button:hover{
+    
+    cursor: pointer;
+}

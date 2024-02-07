@@ -1,0 +1,13 @@
+.header_boxes{
+    
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 8rem;
+    height: 6rem;
+}
+
+.headers_for_places{
+    
+    color: cadetblue;
+    border-bottom: 2px dotted red;
+}
